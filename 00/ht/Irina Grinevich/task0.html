@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>homework</title>
+</head>
+
+<body>
+    <script>
+        var name = prompt("Как Вас зовут?");
+        var age = prompt("Сколько Вам лет?");
+
+        if (name && age) {
+            (age < 18) ? alert("Здарова, " + name + ". Как твои" + age + "?"): alert("Привествую, " + name + ". Уж " + age + " лет прошло");
+        } else {
+            alert("Извините, данные введены некорректно. Пожалуйста, обновите страницу и попробуйте еще раз.");
+        }
+    </script>
+
+</body>
+
+</html>
